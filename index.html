@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <!-- This is where we load JavaScript files that we need - here I'm loading phaser and bootstrap (a bunch of helpful classes
+    to make your websites look more modern and fancy!)-->
+    <meta charset="UTF-8" />
+    <title>ChickTech JavaScript</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!--loading our CSS file-->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+<body>
+<!--Build your about me page here!-->
+<div class="name">
+    <h1> Maya Miller </h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>I am a senior at West Linn High School and I turn 18 on November 18th!</h2>
+        <img src="http://image.oregonlive.com/home/olive-media/width620/img/west_linn/photo/15172188-mmmain.jpeg"
+            height="250" width="440"/>
+        <p>West Linn High School Class of 2018</p>
+        <img src="http://www.snow-forecast.com/system/images/18293/large/Timberline.jpg?1334937128"
+            height="250" width="400"/>
+        <p>I love to snowboard at Timberline Lodge</p>    
+    </div>
+    <div class="col-md-4">
+        <img src="https://www.thelabradorsite.com/wp-content/uploads/2015/07/buying-a-chocolate-labrador-puppy.jpg" 
+            height="260" width="400" /> <p> My Chocolate Lab's name is Seneca she is 14 years old.</p>
+        <img src="https://theopenacademy.com/sites/default/files/pictures/categorypage/Biomedical%20Engineering.png"/>
+        <p>I want to become a biomedical engineer.</p>
+        <img src="https://static1.squarespace.com/static/587eb802f5e231062ba1935b/t/5948ebbbe3df288213db653d/1497951169972/"
+            height-"200" width="450"/>
+        <p>I used to be on the varsity rowing team at Lake Oswego Community Rowing.</p>
+    </div>   
+    <div class="col-md-4">
+            <img src="https://i.pinimg.com/originals/b5/e7/94/b5e794334b9a44db9f97108145f8f5e0.jpg"
+            height="450" width="250"/> <p>My German Shorthair's name is Pepper and she is 4 years old.</p> 
+    </div>     
+    <div class="col-md-4">
+            <img src="http://www.wwu.edu/ee/degrees/images/logo-western-color-240.png"/>
+            <p>I hope to attend Western Washington University next year.</p>
+
+    </div>
+    </div>
+</div>
+
+
+
+<!--END HTML FOR ABOUT ME PAGE-->
+
+<!--Put any javascript here-->
+<script type="text/javascript">
+
+    //this opens a new window when you click the button with our game html! Since an entire URL is not specified,
+    //it opens relative to your current path - if you are on www.mywebsite.com/index.html, this would go to
+    //www.mywebsite.com/game.html
+    var onClick = function() {
+      window.open('/game.html');
+    };
+
+
+</script>
+
+</body>
+</html>
